@@ -15,6 +15,7 @@ def first_challenge
 
   #your code here
 
+deleteif.contacts["Freddy Mercury"][:favorite_icecream_flavors] = "strawberry"
 
   #remember to return your newly altered contacts hash!
   contacts
