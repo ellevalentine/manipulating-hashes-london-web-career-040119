@@ -17,10 +17,10 @@ def first_challenge
 
 contacts.each do |person, data|
   person["Freddy Mercury"].each |attribute, value|
-  data[:favorite_icecream_flavors].each do |flavor|
+  attribute[:favorite_icecream_flavors].each do |flavor|
     flavor.deleteif= "strawberry"
-  end
-end
+      end
+   end
 end
 
 
