@@ -16,7 +16,7 @@ def first_challenge
   #your code here
 
 contacts.each do |person, data|
-  
+  data[:favorite_icecream_flavors]
 end
 
 
