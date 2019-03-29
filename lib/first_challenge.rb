@@ -17,7 +17,8 @@ def first_challenge
 
 contacts.each do |person, data|
   data[:favorite_icecream_flavors].each do |flavor|
-    
+    flavor.deleteif= "strawberry"
+  end
 end
 
 
