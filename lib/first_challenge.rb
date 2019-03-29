@@ -20,7 +20,7 @@ contacts.each do |person, data|
   attribute[:favorite_icecream_flavors].each do |flavor|
     flavor.deleteif= "strawberry"
       end
-   end
+   
 end
 
 
